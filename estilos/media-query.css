@@ -1,0 +1,43 @@
+@charset "UTF-8";
+
+/*
+pequenas telas: 600px
+celular: 600px até 768px
+tablets: 768px até 992px
+desktop: 992px atée 1200px
+grandes telas: acima de 1200px
+*/
+
+@media screen and (max-width:600px){
+    .menu-content{
+        flex-direction: column;
+        padding: 1rem;
+        text-align: center;
+    }
+
+    .main-content{
+        width: 100%;
+    }
+
+    .main-content .primary-text{
+        width: 100%;
+        font-size: 2rem;
+        padding: 1rem;
+    }
+
+    .main-content .second-text{
+        width: 100%;
+        font-size: 1.5rem;
+        text-align: center;
+    }
+
+    .main-content .btns{
+        width: 100%;
+        gap: 10px;
+    }
+
+    .btns button{
+        width: 210px;
+    }
+}
+
